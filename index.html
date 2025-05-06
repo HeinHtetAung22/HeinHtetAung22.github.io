@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hein Htet Aung - Full Stack Developer</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Custom js -->
+  <script src="scriptss.js"></script>
+
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold gradient-text" href="index-simplified.html">Hein Htet Aung</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="dropdown me-3">
+        <button class="btn btn-sm btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <i class="fas fa-language me-1"></i> English
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark">
+          <li><a class="dropdown-item active" href="index.html">English</a></li>
+          <li><a class="dropdown-item" href="japanese.html">日本語</a></li>
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#hero">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certifications">Certifications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="hero-bg"></div>
+    <div class="grid-overlay"></div>
+    <div class="container h-100 d-flex flex-column justify-content-center align-items-center position-relative">
+      <div class="text-center px-4 hero-content" data-aos="fade-up" data-aos-duration="800">
+        <h1 class="display-3 fw-bold gradient-text" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">Hein
+          Htet Aung</h1>
+        <h2 class="fs-1 fw-medium text-light mt-3" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">Full
+          Stack Developer</h2>
+        <p class="fs-5 text-light-gray mt-4 mx-auto" style="max-width: 600px;" data-aos="fade-up"
+          data-aos-duration="800" data-aos-delay="600">
+          I am a full-stack developer with a strong focus on backend development, though I also have experience in web
+          development and frontend design.
+        </p>
+        <div class="mt-5 d-flex flex-wrap justify-content-center gap-3" data-aos="fade-up" data-aos-duration="800"
+          data-aos-delay="800">
+          <a href="#contact" class="btn btn-gradient btn-lg">Get in Touch</a>
+          <a href="#projects" class="btn btn-outline-light btn-lg">View Projects</a>
+        </div>
+      </div>
+      <div class="scroll-down" data-aos="fade-up" data-aos-duration="800" data-aos-delay="1200">
+        <a href="#about" class="text-light-gray">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-darker">
+    <div class="container py-5">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="display-5 fw-bold gradient-text">About Me</h2>
+        <div class="gradient-divider mx-auto"></div>
+      </div>
+
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-5" data-aos="fade-right">
+          <div class="position-relative">
+            <p class="text-white-gray big bg-gray-800 py-2 px-3 rounded-3 shadow-sm">
+              I'm sorry I can't upload my real face yet!
+            </p>
+            <div class="profile-image-container">
+              <img src="One Piece JoyBoy Luffy.jfif" alt="Profile" class="img-fluid rounded-4">
+            </div>
+            <div class="experience-badge">
+              <span>1 year Exp</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7" data-aos="fade-left">
+          <h3 class="fs-2 fw-bold text-white mb-4">
+            I'm <span class="text-purple">Hein Htet Aung</span>, a passionate Full Stack Developer
+          </h3>
+          <p class="text-light-gray fs-5">
+            I specialize in building modern web applications with cutting-edge technologies, with a strong emphasis on
+            backend development. With a solid foundation in both frontend and backend, I create seamless, responsive,
+            and user-friendly digital experiences. Additionally, I have a deep understanding of UI/UX design and am
+            knowledgeable in AI, enabling me to deliver innovative and efficient solutions.
+          </p>
+
+          <div class="row g-3 mt-4">
+            <div class="col-md-6">
+              <div class="info-card">
+                <i class="fas fa-user text-purple"></i>
+                <span>Hein Htet Aung</span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="info-card">
+                <i class="fas fa-envelope text-purple"></i>
+                <span>heinhtetaungfr@gmail.com</span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="info-card">
+                <i class="fas fa-map-marker-alt text-purple"></i>
+                <span>Myanmar,Yangon</span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="info-card">
+                <i class="fas fa-calendar text-purple"></i>
+                <span>Available for work</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- My Certifications Section -->
+  <section id="certifications" class="py-5 bg-darker">
+    <div class="container py-5">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="display-5 fw-bold gradient-text">My Certifications</h2>
+        <div class="gradient-divider mx-auto"></div>
+        <p class="mt-4 text-light-gray mx-auto" style="max-width: 700px;">
+          Here are some of the certifications I've earned.
+        </p>
+      </div>
+
+      <div class="row g-4" data-aos="fade-up" data-aos-delay="200">
+        <!-- JLPT N1 Certification -->
+        <div class="col-md-6">
+          <div class="d-flex gap-3 h-100 p-3 bg-gray-900 rounded-3">
+            <div class="flex-shrink-0 d-flex align-items-center justify-content-center bg-gray-800 rounded-circle"
+              style="width: 48px; height: 48px;">
+              <i class="fas fa-certificate text-purple"></i>
+            </div>
+            <div>
+              <h4 class="h5 fw-semibold text-white">JLPT N1 Certification</h4>
+              <p class="text-light-gray mb-1">2024 - Passed</p>
+              <p class="text-white mb-2">Japanese Language Proficiency Test - Highest Level</p>
+              <button class="btn btn-sm btn-outline-primary border-purple text-purple" data-bs-toggle="modal"
+                data-bs-target="#certificateModal" data-img="path/to/jlpt-certificate.jpg"
+                data-title="JLPT N1 Certificate">
+                <i class="fas fa-eye me-1"></i>View Certificate
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ITPEC Exam -->
+        <div class="col-md-6">
+          <div class="d-flex gap-3 h-100 p-3 bg-gray-900 rounded-3">
+            <div class="flex-shrink-0 d-flex align-items-center justify-content-center bg-gray-800 rounded-circle"
+              style="width: 48px; height: 48px;">
+              <i class="fas fa-certificate text-purple"></i>
+            </div>
+            <div>
+              <h4 class="h5 fw-semibold text-white">ITPEC IP Exam Passed</h4>
+              <p class="text-light-gray mb-1">2024 - Passed</p>
+              <p class="text-white mb-2">Information Technology Professionals Examination Council</p>
+              <button class="btn btn-sm btn-outline-primary border-purple text-purple" data-bs-toggle="modal"
+                data-bs-target="#ITPECcertificateModal" data-img="path/to/itpec-certificate.jpg"
+                data-title="ITPEC Certificate">
+                <i class="fas fa-eye me-1"></i>View Certificate
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- FE Exam -->
+        <div class="col-md-6">
+          <div class="d-flex gap-3 h-100 p-3 bg-gray-900 rounded-3">
+            <div class="flex-shrink-0 d-flex align-items-center justify-content-center bg-gray-800 rounded-circle"
+              style="width: 48px; height: 48px;">
+              <i class="fas fa-certificate text-purple"></i>
+            </div>
+            <div>
+              <h4 class="h5 fw-semibold text-white">Preparing for FE Exam</h4>
+              <p class="text-light-gray mb-1">2025 - Ongoing</p>
+              <p class="text-white">Fundamental Information Technology Engineer Examination</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Language Proficiency -->
+        <div class="col-md-6">
+          <div class="d-flex gap-3 h-100 p-3 bg-gray-900 rounded-3">
+            <div class="flex-shrink-0 d-flex align-items-center justify-content-center bg-gray-800 rounded-circle"
+              style="width: 48px; height: 48px;">
+              <i class="fas fa-language text-purple"></i>
+            </div>
+            <div>
+              <h4 class="h5 fw-semibold text-white">Language Proficiency</h4>
+              <p class="text-light-gray mb-1">Fluent in Japanese (JLPT N1)</p>
+              <p class="text-light-gray mb-1">Fluent in English</p>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Java 80 Hours Training -->
+        <div class="col-md-6">
+          <div class="d-flex gap-3 h-100 p-3 bg-gray-900 rounded-3">
+            <div class="flex-shrink-0 d-flex align-items-center justify-content-center bg-gray-800 rounded-circle"
+              style="width: 48px; height: 48px;">
+              <i class="fas fa-laptop-code text-purple"></i>
+            </div>
+            <div>
+              <h4 class="h5 fw-semibold text-white">Java Training at KMD</h4>
+              <p class="text-light-gray mb-1">January 2023 - Completed</p>
+              <p class="text-white mb-2">Completed 80 hours of Java programming training at KMD Institute.</p>
+              <button class="btn btn-sm btn-outline-primary border-purple text-purple" data-bs-toggle="modal"
+                data-bs-target="#JavacertificateModal" data-img="path/to/itpec-certificate.jpg"
+                data-title="ITPEC Certificate">
+                <i class="fas fa-eye me-1"></i>View Certificate
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Web Development with PHP/Laravel 210 Hours -->
+        <div class="col-md-6">
+          <div class="d-flex gap-3 h-100 p-3 bg-gray-900 rounded-3">
+            <div class="flex-shrink-0 d-flex align-items-center justify-content-center bg-gray-800 rounded-circle"
+              style="width: 48px; height: 48px;">
+              <i class="fas fa-code text-purple"></i>
+            </div>
+            <div>
+              <h4 class="h5 fw-semibold text-white">Web Development at KMD</h4>
+              <p class="text-light-gray mb-1">August 2023 - Completed</p>
+              <p class="text-white mb-2">Completed 210 hours of web development training (PHP & Laravel) at KMD
+                Institute.</p>
+              <button class="btn btn-sm btn-outline-primary border-purple text-purple" data-bs-toggle="modal"
+                data-bs-target="#WebcertificateModal" data-img="path/to/itpec-certificate.jpg"
+                data-title="ITPEC Certificate">
+                <i class="fas fa-eye me-1"></i>View Certificate
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificate Modal (only need to add once at the end of body if not already included) -->
+  <div class="modal fade" id="certificateModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 1000px;">
+      <div class="modal-content bg-dark text-white border border-gray-800">
+        <div class="modal-header border-bottom border-gray-800">
+          <p>About My Jlpt</p>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center p-4">
+          <div class="modal-body text-center p-4">
+            <img src="img/N1C.jpg" alt="Certificate" class="img-fluid rounded-3" id="certificateImage"
+              style="max-height: 70vh;">
+          </div>
+          <p class="text-light-gray mb-4" style="font-size: 0.95rem;">
+            I self-studied for 6 months to pass the JLPT N1 - the most challenging level. My passion for Japanese helped
+            me push through this difficult journey.
+          </p>
+
+          <div class="alert alert-dark border border-gray-800">
+            <i class="fas fa-shield-alt me-2 text-purple"></i>
+            <strong>Certificate Verification:</strong> To prevent misuse, I don't display full certificates publicly.
+            <a href="" class="text-purple" data-bs-dismiss="modal">Contact me</a> for official verification.
+          </div>
+        </div>
+
+        <p>Summary</p>
+        <div class="table-responsive">
+          <table class="table table-dark table-bordered table-hover text-center align-middle">
+            <thead class="table-light text-dark">
+              <tr>
+                <th>Level</th>
+                <th>Vocabulary</th>
+                <th>Reading</th>
+                <th>Listening</th>
+                <th>Total Score</th>
+                <th>Percentile Rank</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>N1</strong></td>
+                <td>41 / 60</td>
+                <td>33 / 60</td>
+                <td>54 / 60</td>
+                <td><strong>128 / 180</strong></td>
+                <td><strong>87.9%</strong></td>
+              </tr>
+              <tr>
+                <td><strong>N2</strong></td>
+                <td>36 / 60</td>
+                <td>32 / 60</td>
+                <td>60/ 60</td>
+                <td><strong>128 / 180</strong></td>
+                <td><strong>90.3%</strong></td>
+              </tr>
+              <tr>
+                <td><strong>N3</strong></td>
+                <td>60 / 60</td>
+                <td>60 / 60</td>
+                <td>60 / 60</td>
+                <td><strong>180/ 180</strong></td>
+                <td><strong>99.6%</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+      </div>
+      <div class="modal-footer border-top border-gray-800">
+        <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <!-- Certificate Modal (only need to add once at the end of body if not already included) -->
+  <div class="modal fade" id="ITPECcertificateModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark text-white border border-gray-800">
+        <div class="modal-header border-bottom border-gray-800">
+          <h5 class="modal-title fs-5" id="certificateModalLabel">ITPEC Certificate</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center p-4">
+          <img src="img/IpC.jpg" alt="Certificate" class="img-fluid rounded-3" id="certificateImage"
+            style="max-height: 70vh;">
+        </div>
+        <div class="modal-body p-4 text-start"> <!-- Changed to text-start for left alignment -->
+          <p class="text-light-gray" style="font-size: 0.95rem;">
+            I dedicated 5 intensive months to prepare for and pass the ITPEC IP examination, gaining comprehensive
+            knowledge in IT project management strategies. This certification equipped me with practical frameworks for
+            resource allocation, labor management, and agile workflow optimization - skills I've directly applied in
+            developing my portfolio projects like the Mini Cinema booking system and E-commerce platform.
+          </p>
+
+          <p class="text-light-gray" style="font-size: 0.95rem;">
+            The exam particularly strengthened my ability to:
+          </p>
+
+          <ul class="text-light-gray" style="font-size: 0.95rem;">
+            <li>Balance technical requirements with business objectives</li>
+            <li>Implement phased development cycles (SDLC)</li>
+            <li>Optimize team productivity through Kanban methodologies</li>
+          </ul>
+
+          <p class="text-light-gray" style="font-size: 0.95rem;">
+            <strong>Verification Note:</strong> For security reasons, I display partial certificates only. Full
+            documentation is available upon verified request via contact form.
+          </p>
+        </div>
+        <div class="modal-footer border-top border-gray-800">
+          <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Certificate Modal of java (only need to add once at the end of body if not already included) -->
+
+  <div class="modal fade" id="JavacertificateModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark text-white border border-gray-800">
+        <div class="modal-header border-bottom border-gray-800">
+          <h5 class="modal-title fs-5" id="certificateModalLabel">Java Certificate</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center p-4">
+          <img src="img/JavaC.jpg" alt="Certificate" class="img-fluid rounded-3" id="certificateImage"
+            style="max-height: 70vh;">
+        </div>
+        <div class="modal-body p-4 text-start">
+          <p class="text-light-gray" style="font-size: 0.95rem;">
+            I completed an intensive 80-hour Java training program at KMD Institute, mastering core Java concepts across
+            J2SE and J2EE platforms. This hands-on course gave me practical experience in object-oriented programming,
+            multi-threading, and enterprise application development using NetBeans IDE.
+          </p>
+
+          <p class="text-light-gray" style="font-size: 0.95rem;">
+            The training focused on:
+          </p>
+
+          <ul class="text-light-gray" style="font-size: 0.95rem;">
+            <li>Core Java fundamentals (J2SE) - Collections, I/O, Exception Handling</li>
+            <li>Enterprise development (J2EE) - Servlets, JSP, JDBC</li>
+            <li>NetBeans IDE for efficient project management</li>
+            <li>Database integration with Java applications</li>
+            <li>Building GUI applications with Swing</li>
+          </ul>
+
+          <p class="text-light-gray" style="font-size: 0.95rem;">
+            These skills directly supported my backend development work in projects like the Online Store System, where
+            I implemented Java-based inventory management solutions.
+          </p>
+          <p class="text-light-gray" style="font-size: 0.95rem;">
+            <strong>Security Notice:</strong> For privacy protection, displayed certificates omit sensitive details.
+          </p>
+
+        </div>
+        <div class="modal-footer border-top border-gray-800">
+          <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Certificate Modal of web (only need to add once at the end of body if not already included) -->
+
+  <div class="modal fade" id="WebcertificateModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark text-white border border-gray-800">
+        <div class="modal-header border-bottom border-gray-800">
+          <h5 class="modal-title fs-5" id="certificateModalLabel">Web Development with PHP Certificate</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center p-4">
+          <img src="img/WebC.jpg" alt="Certificate" class="img-fluid rounded-3" id="certificateImage"
+            style="max-height: 70vh;">
+        </div>
+        <div class="modal-body p-4 text-start">
+          <p class="text-light-gray" style="font-size: 0.95rem;">
+            I completed a comprehensive 210-hour web development program at KMD Institute, specializing in PHP and
+            Laravel frameworks. This intensive training provided me with full-stack development capabilities, from
+            database design to frontend integration, which became the foundation for multiple projects in my portfolio.
+          </p>
+
+          <p class="text-light-gray" style="font-size: 0.95rem;">
+            The program covered:
+          </p>
+
+          <ul class="text-light-gray" style="font-size: 0.95rem;">
+            <li>PHP OOP concepts and modern development patterns</li>
+            <li>Laravel framework (Eloquent ORM, Blade templating, Artisan CLI)</li>
+            <li>MySQL database design and optimization</li>
+            <li>RESTful API development and integration</li>
+            <li>Frontend integration with Bootstrap and JavaScript</li>
+            <li>Authentication systems and security best practices</li>
+          </ul>
+
+          <p class="text-light-gray" style="font-size: 0.95rem;">
+            <strong>Applied in projects:</strong><br>
+            • <span class="text-purple">Mini Cinema System</span>: Implemented Laravel-based booking logic with seat
+            management<br>
+            • <span class="text-purple">Book Lovers' Platform</span>: Developed user authentication and CRUD
+            operations<br>
+            • <span class="text-purple">E-commerce Store</span>: Built product management with MySQL relations<br>
+            • <span class="text-purple">Wallpaper Gallery</span>: Created multi-resolution image processing
+          </p>
+          <p class="text-light-gray" style="font-size: 0.95rem;">
+            <strong>Security Notice:</strong> For privacy protection, displayed certificates omit sensitive details.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5 bg-black">
+    <div class="container py-5">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="display-5 fw-bold gradient-text">My Skills</h2>
+        <div class="gradient-divider mx-auto"></div>
+        <p class="mt-4 text-light-gray mx-auto" style="max-width: 700px;">
+          I've worked with a variety of technologies and frameworks to create robust and scalable applications.
+        </p>
+      </div>
+
+      <div class="row g-5">
+        <div class="col-lg-6">
+          <h3 class="fs-2 fw-bold text-white mb-4" data-aos="fade-up">Technical Skills</h3>
+          <div class="row g-4" id="technical-skills">
+            <!-- Technical skills will be populated by JavaScript -->
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <h3 class="fs-2 fw-bold text-white mb-4" data-aos="fade-up">Languages & Frameworks</h3>
+          <div class="language-skills" id="language-skills">
+            <!-- Language skills will be populated by JavaScript -->
+          </div>
+
+          <div class="additional-skills mt-5 p-4 rounded-4" data-aos="fade-up" data-aos-delay="400">
+            <h4 class="fs-4 fw-bold text-white mb-3">Additional Skills</h4>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">AWS</span>
+              <span class="skill-tag">Firebase</span>
+              <span class="skill-tag">Redux</span>
+              <span class="skill-tag">Next.js</span>
+              <span class="skill-tag">Express</span>
+              <span class="skill-tag">MongoDB</span>
+              <span class="skill-tag">Jest</span>
+              <span class="skill-tag">Tailwind CSS</span>
+              <span class="skill-tag">Figma</span>
+              <span class="skill-tag">CI/CD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-darker">
+    <div class="container py-5">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="display-5 fw-bold gradient-text">My Projects</h2>
+        <div class="gradient-divider mx-auto"></div>
+        <p class="mt-4 text-light-gray mx-auto" style="max-width: 700px;">
+          Here are some of my recent projects. Each one was built to solve a specific problem or explore new
+          technologies.
+        </p>
+      </div>
+
+      <div class="text-center mb-5" data-aos="fade-up">
+        <div class="project-filter">
+          <button class="btn btn-filter active" data-filter="all">All</button>
+          <button class="btn btn-filter" data-filter="React">React</button>
+          <button class="btn btn-filter" data-filter="Node.js">Node.js</button>
+          <button class="btn btn-filter" data-filter="JavaScript">JavaScript</button>
+          <button class="btn btn-filter" data-filter="Laravel">Laravel</button>
+          <button class="btn btn-filter" data-filter="MYSQL">MYSQL</button>
+          <button class="btn btn-filter" data-filter="PHP">PHP</button>
+          <button class="btn btn-filter" data-filter="API">API</button>
+        </div>
+      </div>
+
+      <div class="row g-4" id="projects-container">
+        <!-- Projects will be populated by JavaScript -->
+      </div>
+    </div>
+
+    <!-- Project Modal -->
+    <div class="modal fade " id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-white">
+          <div class="modal-header border-dark">
+            <h5 class="modal-title fs-4 fw-bold" id="projectModalLabel">Project Title</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="videoWarning" class="alert alert-warning  mb-3">
+              <i class="fas fa-exclamation-triangle me-2"></i>
+              <span id="warningText">This video may glitch when skipping due to encoding issues.</span>
+            </div>
+            <div id="modalMedia" class="text-center"></div>
+
+            <p id="modalDescription" class="text-light-gray"></p>
+            <div class="mt-4">
+              <h6 class="fs-5 fw-semibold mb-3">Key Features</h6>
+              <ul class="text-light-gray" id="modalFeatures">
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer border-dark">
+            <a href="#" class="btn btn-outline-light" id="modalGithub" target="_blank">
+              <i class="fab fa-github me-2"></i>View Code
+            </a>
+            <a href="#" class="btn btn-gradient" id="modalDemo" target="_blank">
+              <i class="fas fa-external-link-alt me-2"></i>Live Demo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-black">
+    <div class="container py-5">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="display-5 fw-bold gradient-text">Get In Touch</h2>
+        <div class="gradient-divider mx-auto"></div>
+        <p class="mt-4 text-light-gray mx-auto" style="max-width: 700px;">
+          Have a project in mind or want to collaborate? Feel free to reach out through any of these channels.
+        </p>
+      </div>
+
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-5" data-aos="fade-right">
+          <h3 class="fs-2 fw-bold text-white mb-4">Contact Information</h3>
+
+          <div class="contact-card mb-4">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div>
+              <h4 class="fs-5 fw-semibold text-white">Email</h4>
+              <p class="text-light-gray mb-1">heinhtetaungfr@gmail.com</p>
+              <p class="text-white small">Send me an email anytime!</p>
+            </div>
+          </div>
+
+          <div class="contact-card mb-4">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div>
+              <h4 class="fs-5 fw-semibold text-white">Phone</h4>
+              <p class="text-light-gray mb-1">(I can't put my phone number yet ! Sorry !)</p>
+              <p class="text-whtie small">Available Mon-Fri, 9AM-5PM</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div>
+              <h4 class="fs-5 fw-semibold text-white">Location</h4>
+              <p class="text-light-gray mb-1">Yangon, Myanmar</p>
+              <p class="text-white small">Available for remote work worldwide</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7" data-aos="fade-left">
+          <div class="text-center">
+            <h3 class="fs-2 fw-bold text-white mb-4">Connect With Me</h3>
+            <div class="d-flex flex-wrap justify-content-center gap-4">
+              <a href="https://github.com/HeinHtetAung22" class="social-icon-large">
+                <div class="icon-container bg-github">
+                  <i class="fab fa-github"></i>
+                </div>
+                <span class="icon-label">GitHub</span>
+              </a>
+              <a href="https://www.linkedin.com/in/hein-htet-aung-777424300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                class="social-icon-large">
+                <div class="icon-container bg-linkedin">
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
+                <span class="icon-label">LinkedIn</span>
+              </a>
+              <a href="https://line.me/ti/p/tRkwLFfJUq" class="social-icon-large">
+                <div class="icon-container bg-line">
+                  <i class="fab fa-line"></i>
+                </div>
+                <span class="icon-label">LINE</span>
+              </a>
+              <a href="https://www.facebook.com/share/16H4f7wxxX/" class="social-icon-large">
+                <div class="icon-container bg-facebook">
+                  <i class="fab fa-facebook-f"></i>
+                </div>
+                <span class="icon-label">Facebook</span>
+              </a>
+              <a href="https://www.instagram.com/hein_htetaung22?igsh=OTcwZTF1ZWh3MnFr" class="social-icon-large">
+                <div class="icon-container bg-instagram">
+                  <i class="fab fa-instagram"></i>
+                </div>
+                <span class="icon-label">Instagram</span>
+              </a>
+              <a href="https://t.me/heinhtetaungxxx" class="social-icon-large">
+                <div class="icon-container bg-telegram">
+                  <i class="fab fa-telegram"></i>
+                </div>
+                <span class="icon-label">Telegram</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-darker border-top border-dark">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+          <h2 class="fs-4 fw-bold gradient-text">Hein Htet Aung</h2>
+          <p class="text-white mb-0">Full Stack Developer</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <button class="btn btn-outline-secondary rounded-circle" id="backToTop">
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+      <div class="text-center mt-4 pt-4 border-top border-dark">
+        <p class="text-white small">© <span id="currentYear"></span> Hein Htet Aung. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Custom JS -->
+
+</body>
+
+</html>
