@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", () => {
             title: "ミニシネマ",
             description: "APIを使ったミニオンライン映画予約システム",
             image: "/img/minicinema.png",
-            video: "/vd/minicinema.mp4",
+            video: "https://streamtape.com/e/6byJ6y7pAjivzq",
             tags: ["Laravel", "MYSQL", "PHP", "Bootstrap", "CSS", "Node.js", "API", "JavaScript"],
             longDescription:
                 "この映画予約システムでは、ユーザーは映画を閲覧・予約する前にログインする必要があります。3つの会員ランク（通常、VIP、VVIP）があり、それぞれに異なる割引特典があります。ホームページでは映画が「本日」「明日」「3日後」に分類されて表示されますが、予約は「明日」以降のみ可能で、スケジュール管理が簡単になります。ユーザーは映画を選択した後、座席を選択できます（A-1は20席、A-2は30席）。複数の座席選択が可能で、赤い色で既に埋まっている席が表示されます。チェックアウト時には選択された座席が表示され、該当する場合は割引価格が計算されます。支払い方法を選択後、PDFまたはQRコード付きのチケットが生成され、ユーザーはそれを使って入場できます。すべての取引は購入履歴に記録されます。",
@@ -215,7 +215,7 @@ document.addEventListener("DOMContentLoaded", () => {
             title: "読書愛好家向けウェブサイト",
             description: "読書クラブ、図書館、本を共有したい人に最適なプラットフォーム！",
             image: "/img/booklover.png",
-            video: "/vd/booklover.mp4",
+            video: "https://streamtape.com/e/gwovXd06Yztq8Yv/",
             tags: ["Laravel", "MYSQL", "PHP", "Bootstrap", "CSS", "Node.js", "JavaScript"],
             longDescription:
                 "このプラットフォームには2つの主要な役割があります。",
@@ -238,7 +238,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "小規模ビジネス向けの基本的な在庫管理機能付きオンライン販売システム！",
             image: "/img/onlineshopping.png",
             tags: ["Laravel", "MYSQL", "PHP", "Bootstrap", "CSS", "Node.js", "JavaScript"],
-            video: "/vd/onlineshopping.mp4",
+            video: "https://streamtape.com/e/dqP7gVrvo7tkJ7r/",
             longDescription: "このウェブサイトは、在庫管理と多言語サポートを備えた**eコマースプラットフォーム**です。**顧客**向けには、商品をカテゴリごとに閲覧したり、特定の商品を検索したり、英語またはミャンマー語で詳細を確認したり、カートに追加して購入できます。コメント・レビューの投稿、プロフィールの編集も可能です。**管理者**向けには、商品の追加・編集（写真や価格含む）、カテゴリの管理、在庫数の自動更新、注文履歴の閲覧、ユーザー管理ができます。言語は英語とミャンマー語に対応し、通常商品とセール商品を分けて表示します。リアルタイムで在庫数を管理し、売り切れを防ぎます。",
             features: [
                 " 顧客は商品を閲覧、注文、レビュー投稿可能",
@@ -260,7 +260,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "壁紙共有サイト、デジタルアートギャラリー、テーマ型壁紙サイトに最適なプロジェクトです。",
             image: "/img/wallpaperwebsite.png",
             tags: ["Laravel", "MYSQL", "PHP", "Bootstrap", "CSS", "Node.js", "JavaScript"],
-            video: "/vd/wallpaperwebsite.mp4",
+            video: "https://streamtape.com/e/dZ9qWx7wDqskpBD/",
             longDescription: "このプロジェクトは、ユーザーが高品質な壁紙を閲覧・ダウンロードでき、管理者がコンテンツを管理できるLaravelベースの壁紙ギャラリー＆管理システムです。一般ユーザーは、カテゴリ別に壁紙を閲覧、名前で検索、タイプ別にフィルタリング、詳細ページで複数の解像度（480p、720p、1080p）からダウンロード可能です。関連壁紙の提案機能も搭載されています。",
             features: [
                 " 壁紙の閲覧：カテゴリ別に壁紙を表示",
@@ -283,6 +283,96 @@ document.addEventListener("DOMContentLoaded", () => {
             image: "https://dummyimage.com/800x600/000/fff.png&text=動画ストリーミングサイト（開発中）",
             tags: ["Laravel", "MYSQL", "PHP", "Bootstrap", "CSS", "Node.js", "JavaScript"],
         },
+        {
+            id: 6,
+            title: "Gemini-チャットボット",
+            description: "このプロジェクトは、Gemini API を使用して、質問に答えたりコードを生成したりできるチャットボットを作成します。",
+            image: "/img/geminiChatBot.png",
+            tags: ["NoCode", "AI", "API"],
+            video: "https://streamtape.com/e/YpQQ1Ylv4YHpld/",
+            demo: "https://gemini-chat-bot-six.vercel.app/",
+            longDescription: "このプロジェクトは、Gemini API を使って構築されたインタラクティブなチャットボットです。自然な会話が可能で、説明を求めたり、コードのヘルプを受け取ったりできます。ユーザーは、自分の API キーを入力してアクセスを有効にする必要があります。音声入力（音声→テキスト）および読み上げ（テキスト→音声）機能も備えており、より使いやすい体験を提供します。コード生成も可能ですが、整形が読みやすくない場合があります。今後は整形改善やカスタマイズ、高度な音声機能などの追加を予定しています。",
+            features: [
+                "AIとのチャット：Gemini API を使って質問に答えるインテリジェントな応答。",
+                "音声からテキスト：音声をテキストに変換してチャットに入力可能。",
+                "テキストから音声：チャットボットの応答を読み上げる機能。",
+                "コード生成：コードの解決策を提供（※整形が分かりにくい場合があります）。",
+                "APIキー入力：安全なアクセスのために、ユーザーは自身の Gemini API キーを入力。",
+                "今後の機能：整形の改善、UI強化、より高度なインタラクションなどを追加予定。"
+            ],
+        },
+        {
+            id: 7,
+            title: "日本語学習アプリ（Hein JLPT Master）",
+            description: "JLPTレベルに基づいた日本語学習ウェブアプリ。フラッシュカード、模擬試験、リファレンス機能を搭載。",
+            image: "/img/heinjlptmaster.png",
+            tags: ["NoCode", "AI"],
+            video: "https://streamtape.com/e/0Jp6klVRYXc6l1/",
+            longDescription: "Hein JLPT Masterは、JLPTのN5からN3までに対応した日本語学習用のウェブアプリです。今後はN2やN1レベルにも拡張予定です。漢字や語彙のフラッシュカード、JLPT模擬試験（模擬試験）、そして文法・語彙・漢字のリファレンス機能が搭載されています。検索機能もあり、単語や文法項目を簡単に検索できます。このアプリは現在ベータ版であり、今後さらに多くのデータや機能（音声機能、学習進捗管理、バックエンド連携など）を追加予定です。現在はJavaScriptのみで動作しており、バックエンドは使用していません。",
+            demo: "https://jlpt-app.vercel.app/",
+            features: [
+                "JLPTレベル別学習：N5からN3までのレベルで日本語を学習（今後N2とN1も対応予定）。",
+                "漢字・語彙フラッシュカード：JLPT関連の語彙や漢字を覚えるためのフラッシュカード機能。",
+                "模擬試験：本番のJLPT試験を想定した模擬試験に挑戦できます。",
+                "文法・語彙リファレンス：文法ポイントや語彙の詳細な説明を確認できます。",
+                "漢字リファレンス：漢字の書き順、読み方、意味などをJLPTレベル別に表示。",
+                "スマート検索機能：漢字・語彙・文法をキーワードで素早く検索できます。",
+                "ベータ版：これは初期バージョンです。今後、音声再生、進捗管理、バックエンド機能などが追加される予定です。",
+                "JavaScriptのみで構築：全てのデータ処理はJavaScriptのみで実行されており、バックエンドは未使用。"
+            ]
+        },
+        {
+            id: 8,
+            title: "スピードテスト",
+            description: "リアルタイムで接続速度をチェックできる、アニメーション付きの最新インターネットスピードテストWebアプリです。",
+            image: "/img/speedTest.png",
+            tags: ["NoCode", "AI"],
+            video: "https://streamtape.com/e/y0zVMmzV0ku1GJy/",
+            longDescription: "スピードテストは、インターネット接続の品質をリアルタイムで把握できるモダンなWebベースのスピードテストアプリです。実際のファイル転送やサーバーとのやり取りを通じて、ダウンロード速度、アップロード速度、Ping、ジッター、パケットロスを測定します。WiFiネットワーク名、ローカルIPアドレス、パブリックIPアドレス、ISP、接続地域などの詳細情報も表示されます。アニメーションを使用して、テストの進行状況を視覚的にわかりやすく表示。JavaScriptのみで構築されており、バックエンドなしでブラウザ内で動作する軽量でレスポンシブな体験を提供します。",
+            demo: "https://speed-test-2-0.vercel.app/",
+            features: [
+                "ダウンロード速度：ファイルをどれだけ早くダウンロードできるか（Mbpsで表示）",
+                "アップロード速度：どれだけ早くデータをアップロードできるかを計測",
+                "Ping：データの送受信にかかる時間を表示（低いほど良い）",
+                "ジッター：接続の安定性を示す（低いほど安定）",
+                "パケットロス：データが失われているかどうかを表示",
+                "WiFiネットワーク名：接続しているWiFiの名前を表示",
+                "ローカルIPアドレス：内部IPアドレスを表示（例：192.168.x.x）",
+                "パブリックIPアドレス：外部向けのIPアドレスを表示（ウェブサイトに見えるIP）",
+                "地域・ISP情報：どこから接続しているか、どのプロバイダを利用しているかを表示",
+                "リアルなテスト：",
+                "- 実際のファイルダウンロード・アップロードを使用して正確に速度を測定",
+                "- 複数のサーバーに接続して信頼性と精度を確保",
+                "- スムーズなアニメーションで進行状況をリアルタイムに表示",
+                "- バックエンド不要 — JavaScriptだけで動作", "現在の制限: フロントエンドのシミュレーションのみを使用しているため、結果の正確さに限界があります。",
+                "今後の予定: 公式のスピードテストAPIと連携し、測定の精度と信頼性を向上させます。",
+
+            ]
+        },
+        {
+            id: 9,
+            title: "人事管理（ミニプロジェクト）",
+            description: "従業員の管理、休暇や残業の処理、給与の計算、並び替えや検索機能を備えた、シンプルなPHPとMySQLベースの人事管理システムです。",
+            image: "img/hrmanagement.png",
+            tags: ["PHP", "MySQL"],
+            video: "https://streamtape.com/e/Oq98YjMZgjUZbPA/",
+            longDescription: "この人事管理ミニプロジェクトは、外部フレームワークを使用せず、純粋なPHPとMySQLだけで開発された軽量で機能的なシステムです。小規模な組織が従業員データを効率的に管理できるように設計されており、従業員の追加・編集・削除や給与計算などを行えます。また、休暇管理や残業時間の記録機能も備えており、基本給と残業による追加給から給与が自動で計算されます。並び替えや検索機能により、従業員の追跡とHR業務を簡素化します。",
+            features: [
+                "従業員の追加・編集・削除：データベース内の従業員情報を簡単に管理できます。",
+                "休暇管理：従業員の休暇期間を記録・管理できます。",
+                "残業管理：各従業員の残業時間を記録します。",
+                "給与計算：基本給と残業手当を含めた給与を自動計算します。",
+                "並び替えとフィルタリング：名前、職位、給与、残業時間で従業員を並び替え可能。",
+                "検索機能：名前などの条件で従業員を素早く検索できます。",
+                "レスポンシブなテーブル：ページ分割された従業員一覧とドロップダウンフィルター付き。",
+                "純粋なPHPとMySQL：外部フレームワークなしで構築されており、カスタマイズや理解が容易です。",
+                "ユーザー認証：不正アクセスを防止する基本的なログインシステムを搭載。",
+                "シンプルなUI：機能性に重点を置いたクリーンで分かりやすいインターフェース。"
+            ]
+        }
+
+
+
     ];
 
 
@@ -489,66 +579,143 @@ document.addEventListener("DOMContentLoaded", () => {
 //   const projectModal = new bootstrap.Modal(document.getElementById("projectModal"))
 //   projectModal.show()
 // }
+// function showProjectDetails(projectId) {
+//     // Find project data
+//     const project = window.projects.find((p) => p.id === projectId)
+//     if (!project) return
+
+//     // Update modal title and description
+//     document.getElementById("projectModalLabel").textContent = project.title
+//     document.getElementById("modalDescription").textContent = project.longDescription
+
+//     // Get modal media container
+//     const modalMedia = document.getElementById("modalMedia")
+//     modalMedia.innerHTML = "" // Clear previous content
+
+//     if (project.video) {
+//         // If video exists, show video
+//         const video = document.createElement("video")
+//         video.src = project.video
+//         video.controls = true
+//         video.className = "img-fluid rounded-3 mb-4"
+//         video.controlsList = "nodownload"
+//         video.style.maxHeight = "70vh"
+//         modalMedia.appendChild(video)
+//     } else if (project.image) {
+//         // Otherwise, show image
+//         const img = document.createElement("img")
+//         img.src = project.image
+//         img.alt = project.title
+//         img.className = "img-fluid rounded-3 mb-4"
+//         img.style.maxHeight = "70vh"
+//         modalMedia.appendChild(img)
+//     }
+
+//     // Update features list
+//     const featuresList = document.getElementById("modalFeatures")
+//     featuresList.innerHTML = ""
+//     project.features.forEach((feature) => {
+//         const li = document.createElement("li")
+//         li.textContent = feature
+//         featuresList.appendChild(li)
+//     })
+
+//     // Update buttons
+//     const githubBtn = document.getElementById("modalGithub")
+//     const demoBtn = document.getElementById("modalDemo")
+
+//     if (project.github) {
+//         githubBtn.href = project.github
+//         githubBtn.style.display = "inline-block"
+//     } else {
+//         githubBtn.style.display = "none"
+//     }
+
+//     if (project.demo) {
+//         demoBtn.href = project.demo
+//         demoBtn.onclick = () => window.open(project.demo, "_blank")
+//         demoBtn.style.display = "inline-block"
+//     } else {
+//         demoBtn.style.display = "none"
+//     }
+
+//     // Show modal
+//     const projectModal = new bootstrap.Modal(document.getElementById("projectModal"))
+//     projectModal.show()
+// }
+let currentVideoIframe = null; // Store the active video iframe
+
 function showProjectDetails(projectId) {
-    // Find project data
-    const project = window.projects.find((p) => p.id === projectId)
-    if (!project) return
+    const project = window.projects.find((p) => p.id === projectId);
+    if (!project) return;
 
-    // Update modal title and description
-    document.getElementById("projectModalLabel").textContent = project.title
-    document.getElementById("modalDescription").textContent = project.longDescription
+    // Reset previous video if any
+    stopVideo();
 
-    // Get modal media container
-    const modalMedia = document.getElementById("modalMedia")
-    modalMedia.innerHTML = "" // Clear previous content
+    // Update modal content (title, description, etc.)
+    document.getElementById("projectModalLabel").textContent = project.title;
+    document.getElementById("modalDescription").textContent = project.longDescription;
+
+    const modalMedia = document.getElementById("modalMedia");
+    modalMedia.innerHTML = "";
 
     if (project.video) {
-        // If video exists, show video
-        const video = document.createElement("video")
-        video.src = project.video
-        video.controls = true
-        video.className = "img-fluid rounded-3 mb-4"
-        video.controlsList = "nodownload"
-        video.style.maxHeight = "70vh"
-        modalMedia.appendChild(video)
+        const iframe = document.createElement("iframe");
+        iframe.src = project.video;
+        iframe.className = "w-100 rounded-3 mb-4";
+        iframe.style.height = "400px";
+        iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+        iframe.allowFullscreen = true;
+        modalMedia.appendChild(iframe);
+
+        // Store reference to the iframe
+        currentVideoIframe = iframe;
     } else if (project.image) {
-        // Otherwise, show image
-        const img = document.createElement("img")
-        img.src = project.image
-        img.alt = project.title
-        img.className = "img-fluid rounded-3 mb-4"
-        img.style.maxHeight = "70vh"
-        modalMedia.appendChild(img)
+        const img = document.createElement("img");
+        img.src = project.image;
+        img.alt = project.title;
+        img.className = "img-fluid rounded-3 mb-4";
+        img.style.maxHeight = "70vh";
+        modalMedia.appendChild(img);
     }
 
     // Update features list
-    const featuresList = document.getElementById("modalFeatures")
-    featuresList.innerHTML = ""
+    const featuresList = document.getElementById("modalFeatures");
+    featuresList.innerHTML = "";
     project.features.forEach((feature) => {
-        const li = document.createElement("li")
-        li.textContent = feature
-        featuresList.appendChild(li)
-    })
+        const li = document.createElement("li");
+        li.textContent = feature;
+        featuresList.appendChild(li);
+    });
 
-    // Update buttons
-    const githubBtn = document.getElementById("modalGithub")
-    const demoBtn = document.getElementById("modalDemo")
+    // Update GitHub & Demo buttons
+    const githubBtn = document.getElementById("modalGithub");
+    const demoBtn = document.getElementById("modalDemo");
 
-    if (project.github) {
-        githubBtn.href = project.github
-        githubBtn.style.display = "inline-block"
-    } else {
-        githubBtn.style.display = "none"
-    }
+    githubBtn.style.display = project.github ? "inline-block" : "none";
+    if (project.github) githubBtn.href = project.github;
 
+    demoBtn.style.display = project.demo ? "inline-block" : "none";
     if (project.demo) {
-        demoBtn.href = project.demo
-        demoBtn.style.display = "inline-block"
-    } else {
-        demoBtn.style.display = "none"
+        demoBtn.onclick = () => window.open(project.demo, "_blank");
     }
 
-    // Show modal
-    const projectModal = new bootstrap.Modal(document.getElementById("projectModal"))
-    projectModal.show()
+    // Initialize Bootstrap modal
+    const projectModalEl = document.getElementById("projectModal");
+    const projectModal = new bootstrap.Modal(projectModalEl);
+
+    // Listen for modal close event
+    projectModalEl.addEventListener("hidden.bs.modal", stopVideo);
+
+    // Show the modal
+    projectModal.show();
+}
+
+// New function to stop the video
+function stopVideo() {
+    if (currentVideoIframe) {
+        // Pause video by removing `src` (resets iframe)
+        currentVideoIframe.src = "";
+        currentVideoIframe = null; // Clear reference
+    }
 }
