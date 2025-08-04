@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", () => {
             title: "ミニシネマ",
             description: "APIを使ったミニオンライン映画予約システム",
             image: "/img/minicinema.png",
-            video: "https://streamtape.com/e/6byJ6y7pAjivzq",
+            video: "https://drive.google.com/file/d/1l3qD9yekkSzJal_jDLvfz_Npq9S6SMOy/preview",
             tags: ["Laravel", "MYSQL", "PHP", "Bootstrap", "CSS", "Node.js", "API", "JavaScript"],
             longDescription:
                 "この映画予約システムでは、ユーザーは映画を閲覧・予約する前にログインする必要があります。3つの会員ランク（通常、VIP、VVIP）があり、それぞれに異なる割引特典があります。ホームページでは映画が「本日」「明日」「3日後」に分類されて表示されますが、予約は「明日」以降のみ可能で、スケジュール管理が簡単になります。ユーザーは映画を選択した後、座席を選択できます（A-1は20席、A-2は30席）。複数の座席選択が可能で、赤い色で既に埋まっている席が表示されます。チェックアウト時には選択された座席が表示され、該当する場合は割引価格が計算されます。支払い方法を選択後、PDFまたはQRコード付きのチケットが生成され、ユーザーはそれを使って入場できます。すべての取引は購入履歴に記録されます。",
@@ -215,7 +215,7 @@ document.addEventListener("DOMContentLoaded", () => {
             title: "読書愛好家向けウェブサイト",
             description: "読書クラブ、図書館、本を共有したい人に最適なプラットフォーム！",
             image: "/img/booklover.png",
-            video: "https://streamtape.com/e/gwovXd06Yztq8Yv/",
+            video: "https://drive.google.com/file/d/1xVYKZxROkR9L89JHhJJeHupmN21WkJnP/preview",
             tags: ["Laravel", "MYSQL", "PHP", "Bootstrap", "CSS", "Node.js", "JavaScript"],
             longDescription:
                 "このプラットフォームには2つの主要な役割があります。",
@@ -238,7 +238,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "小規模ビジネス向けの基本的な在庫管理機能付きオンライン販売システム！",
             image: "/img/onlineshopping.png",
             tags: ["Laravel", "MYSQL", "PHP", "Bootstrap", "CSS", "Node.js", "JavaScript"],
-            video: "https://streamtape.com/e/dqP7gVrvo7tkJ7r/",
+            video: "https://drive.google.com/file/d/1t5NMigKODYhLqt0pBUt6D6KlJ2TkMNhn/preview",
             longDescription: "このウェブサイトは、在庫管理と多言語サポートを備えた**eコマースプラットフォーム**です。**顧客**向けには、商品をカテゴリごとに閲覧したり、特定の商品を検索したり、英語またはミャンマー語で詳細を確認したり、カートに追加して購入できます。コメント・レビューの投稿、プロフィールの編集も可能です。**管理者**向けには、商品の追加・編集（写真や価格含む）、カテゴリの管理、在庫数の自動更新、注文履歴の閲覧、ユーザー管理ができます。言語は英語とミャンマー語に対応し、通常商品とセール商品を分けて表示します。リアルタイムで在庫数を管理し、売り切れを防ぎます。",
             features: [
                 " 顧客は商品を閲覧、注文、レビュー投稿可能",
@@ -260,7 +260,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "壁紙共有サイト、デジタルアートギャラリー、テーマ型壁紙サイトに最適なプロジェクトです。",
             image: "/img/wallpaperwebsite.png",
             tags: ["Laravel", "MYSQL", "PHP", "Bootstrap", "CSS", "Node.js", "JavaScript"],
-            video: "https://streamtape.com/e/dZ9qWx7wDqskpBD/",
+            video: "https://drive.google.com/file/d/1ssP0VgRiTC_dcXQpty1zavA_CNjbxzhN/preview",
             longDescription: "このプロジェクトは、ユーザーが高品質な壁紙を閲覧・ダウンロードでき、管理者がコンテンツを管理できるLaravelベースの壁紙ギャラリー＆管理システムです。一般ユーザーは、カテゴリ別に壁紙を閲覧、名前で検索、タイプ別にフィルタリング、詳細ページで複数の解像度（480p、720p、1080p）からダウンロード可能です。関連壁紙の提案機能も搭載されています。",
             features: [
                 " 壁紙の閲覧：カテゴリ別に壁紙を表示",
@@ -289,7 +289,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "このプロジェクトは、Gemini API を使用して、質問に答えたりコードを生成したりできるチャットボットを作成します。",
             image: "/img/geminiChatBot.png",
             tags: ["NoCode", "AI", "API"],
-            video: "https://streamtape.com/e/YpQQ1Ylv4YHpld/",
+            video: "https://drive.google.com/file/d/1ah-sLF0pcv-FSqC7_hgLn_ktjURprJqj/preview",
             demo: "https://gemini-chat-bot-six.vercel.app/",
             longDescription: "このプロジェクトは、Gemini API を使って構築されたインタラクティブなチャットボットです。自然な会話が可能で、説明を求めたり、コードのヘルプを受け取ったりできます。ユーザーは、自分の API キーを入力してアクセスを有効にする必要があります。音声入力（音声→テキスト）および読み上げ（テキスト→音声）機能も備えており、より使いやすい体験を提供します。コード生成も可能ですが、整形が読みやすくない場合があります。今後は整形改善やカスタマイズ、高度な音声機能などの追加を予定しています。",
             features: [
@@ -307,7 +307,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "JLPTレベルに基づいた日本語学習ウェブアプリ。フラッシュカード、模擬試験、リファレンス機能を搭載。",
             image: "/img/heinjlptmaster.png",
             tags: ["NoCode", "AI"],
-            video: "https://streamtape.com/e/0Jp6klVRYXc6l1/",
+            video: "https://drive.google.com/file/d/1-1e0Ipk5JU_to0ExXEPQC9Qd9PVhNWuq/preview",
             longDescription: "Hein JLPT Masterは、JLPTのN5からN3までに対応した日本語学習用のウェブアプリです。今後はN2やN1レベルにも拡張予定です。漢字や語彙のフラッシュカード、JLPT模擬試験（模擬試験）、そして文法・語彙・漢字のリファレンス機能が搭載されています。検索機能もあり、単語や文法項目を簡単に検索できます。このアプリは現在ベータ版であり、今後さらに多くのデータや機能（音声機能、学習進捗管理、バックエンド連携など）を追加予定です。現在はJavaScriptのみで動作しており、バックエンドは使用していません。",
             demo: "https://jlpt-app.vercel.app/",
             features: [
@@ -323,39 +323,11 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             id: 8,
-            title: "スピードテスト",
-            description: "リアルタイムで接続速度をチェックできる、アニメーション付きの最新インターネットスピードテストWebアプリです。",
-            image: "/img/speedTest.png",
-            tags: ["NoCode", "AI"],
-            video: "https://streamtape.com/e/y0zVMmzV0ku1GJy/",
-            longDescription: "スピードテストは、インターネット接続の品質をリアルタイムで把握できるモダンなWebベースのスピードテストアプリです。実際のファイル転送やサーバーとのやり取りを通じて、ダウンロード速度、アップロード速度、Ping、ジッター、パケットロスを測定します。WiFiネットワーク名、ローカルIPアドレス、パブリックIPアドレス、ISP、接続地域などの詳細情報も表示されます。アニメーションを使用して、テストの進行状況を視覚的にわかりやすく表示。JavaScriptのみで構築されており、バックエンドなしでブラウザ内で動作する軽量でレスポンシブな体験を提供します。",
-            demo: "https://speed-test-2-0.vercel.app/",
-            features: [
-                "ダウンロード速度：ファイルをどれだけ早くダウンロードできるか（Mbpsで表示）",
-                "アップロード速度：どれだけ早くデータをアップロードできるかを計測",
-                "Ping：データの送受信にかかる時間を表示（低いほど良い）",
-                "ジッター：接続の安定性を示す（低いほど安定）",
-                "パケットロス：データが失われているかどうかを表示",
-                "WiFiネットワーク名：接続しているWiFiの名前を表示",
-                "ローカルIPアドレス：内部IPアドレスを表示（例：192.168.x.x）",
-                "パブリックIPアドレス：外部向けのIPアドレスを表示（ウェブサイトに見えるIP）",
-                "地域・ISP情報：どこから接続しているか、どのプロバイダを利用しているかを表示",
-                "リアルなテスト：",
-                "- 実際のファイルダウンロード・アップロードを使用して正確に速度を測定",
-                "- 複数のサーバーに接続して信頼性と精度を確保",
-                "- スムーズなアニメーションで進行状況をリアルタイムに表示",
-                "- バックエンド不要 — JavaScriptだけで動作", "現在の制限: フロントエンドのシミュレーションのみを使用しているため、結果の正確さに限界があります。",
-                "今後の予定: 公式のスピードテストAPIと連携し、測定の精度と信頼性を向上させます。",
-
-            ]
-        },
-        {
-            id: 9,
             title: "人事管理（ミニプロジェクト）",
             description: "従業員の管理、休暇や残業の処理、給与の計算、並び替えや検索機能を備えた、シンプルなPHPとMySQLベースの人事管理システムです。",
             image: "img/hrmanagement.png",
             tags: ["PHP", "MySQL"],
-            video: "https://streamtape.com/e/Oq98YjMZgjUZbPA/",
+            video: "https://drive.google.com/file/d/1QCpUA8ejsAdjy0glf4FDYFCoRxZMxEsG/preview",
             longDescription: "この人事管理ミニプロジェクトは、外部フレームワークを使用せず、純粋なPHPとMySQLだけで開発された軽量で機能的なシステムです。小規模な組織が従業員データを効率的に管理できるように設計されており、従業員の追加・編集・削除や給与計算などを行えます。また、休暇管理や残業時間の記録機能も備えており、基本給と残業による追加給から給与が自動で計算されます。並び替えや検索機能により、従業員の追跡とHR業務を簡素化します。",
             features: [
                 "従業員の追加・編集・削除：データベース内の従業員情報を簡単に管理できます。",
@@ -369,10 +341,49 @@ document.addEventListener("DOMContentLoaded", () => {
                 "ユーザー認証：不正アクセスを防止する基本的なログインシステムを搭載。",
                 "シンプルなUI：機能性に重点を置いたクリーンで分かりやすいインターフェース。"
             ]
+        },
+        {
+            id: 9,
+            title: "Hein Manga（マンガ閲覧Webアプリ）",
+            description: "PDF形式のマンガを読み込んで表示できる、JavaScript製のシンプルなマンガ閲覧Webアプリです。",
+            image: "img/heinManga.png",
+            tags: ["NoCode", "AI"],
+            video: "https://drive.google.com/file/d/1vee82uMcOYVm7kIr7aDPochuPLIbqAQX/preview",
+            longDescription: "Hein Mangaは、JavaScriptをバックエンドに使用して開発された軽量なマンガ閲覧用Webアプリです。マンガの各章（チャプター）をPDFでアップロードし、それをマンガ風のページに変換してブラウザで読むことができます。ページ送りやチャプター移動など、読みやすさを重視した設計になっています。現在は無料ドメインでホストしているため大量のファイルに対応できず、オンラインデモは公開していませんが、将来的にはGoogle Cloudストレージを導入して接続する予定です。",
+            features: [
+                "PDF形式のマンガチャプターをアップロード可能",
+                "自動でマンガページ表示に変換",
+                "ブラウザで快適にページ送りしながら閲覧可能",
+                "JavaScriptによるバックエンド処理",
+                "読みやすさを重視した軽量フロントエンド",
+                "将来的にクラウドストレージと連携予定",
+                "シンプルで見やすいUI設計"
+            ]
+        },
+        {
+            id: 10,
+            title: "学校管理システム (ウェブアプリ)",
+            description: "ReactとNode.jsを使用した学校管理システム。生徒、教師、校長用の個別ダッシュボードを備え、課題追跡、成績分析、時間割管理、シミュレーションデータベース操作（実際のバックエンドなし）などの機能があります。",
+            image: "img/schoolManagement.png",
+            tags: ["NoCode", "AI"],
+            video: "https://drive.google.com/file/d/1HGNh9n5PzLhe_5Go6bxY3m_meW_tOZem/preview",
+            longDescription: "このウェブアプリケーションは、生徒、教師、校長用の3つの異なるダッシュボードを持つ学校管理システムをシミュレートします。生徒は科目、課題、教師の詳細、および今後の試験を確認できます。教師はクラスを管理し、課題を確認・採点し、生徒の成績を追跡します。校長はすべてのデータを管理し、生徒/教師の記録を編集・削除し、学校全体のパフォーマンス分析を監視します。現在のバージョンではシミュレーションデータ（実際のデータベースなし）を使用していますが、将来の拡張性のためにReact（フロントエンド）とNode.js（バックエンド）で構築されています。今後の更新では、苦情システムと実際のデータベース統合を予定しています。",
+            demo: "https://school-management-ten-lime.vercel.app/",
+            features: [
+                "3つの役割ベースのダッシュボード: 生徒、教師、校長",
+                "生徒ダッシュボード: 科目、課題、教師の詳細、時間割、今後の試験を表示",
+                "教師ダッシュボード: クラスの生徒を表示、課題を確認・採点、成績分析（科目/月別）をチェック",
+                "校長ダッシュボード: すべての生徒/教師を管理、記録を編集・削除、学校全体のパフォーマンスを監視",
+                "シミュレーションデータ操作（現在のバージョンでは実際のデータベースなし）",
+                "課題アップロード＆レビューシステム（シミュレーション）",
+                "生徒と教師のための時間割管理",
+                "パフォーマンス分析（クラス別、科目別、月別）",
+                "React（フロントエンド）とNode.js（バックエンド）で構築",
+                "v0.devを使用した迅速なプロトタイピング",
+                "現在はウェブ版のみ（モバイル版は今後の対応予定）",
+                "今後の計画: 実際のデータベース統合、苦情システム"
+            ]
         }
-
-
-
     ];
 
 

@@ -197,7 +197,7 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Mini Cinema",
       description: "A Mini Cinema Online Booking With API",
       image: "/img/minicinema.png",
-      video: "https://streamtape.com/e/6byJ6y7pAjivzq",
+      video: "https://drive.google.com/file/d/1l3qD9yekkSzJal_jDLvfz_Npq9S6SMOy/preview",
       tags: ["Laravel", "MYSQL", "PHP", "Bootstrap", "CSS", "Node.js", "API", "JavaScript"],
       longDescription:
         "The movie booking system requires users to first login before they can browse and book films, with three user tiers offering different benefits - Normal (no discounts), VIP (30+ tickets for 10% off), and VVIP (50+ tickets for 30% off). The homepage displays movies in three categories (Today, Tomorrow, In 3 Days), but bookings are only available for future showings (Tomorrow onward) to simplify scheduling. After selecting a movie, users choose seats from limited auditoriums (A-1 with 20 seats or A-2 with 30 seats), with a toggle system for multiple seat selection and red indicators showing unavailable seats. The checkout process displays selected seats, calculates the discounted price (if applicable), and offers payment scanning options before generating a confirmation with a downloadable PDF/QR ticket for cinema entry - all transactions are recorded in the user's purchase history for easy reference.",
@@ -216,7 +216,7 @@ document.addEventListener("DOMContentLoaded", () => {
       title: " Book Lovers’ Website",
       description: "Ideal for: Book clubs, libraries, or anyone who wants to catalog and share books online!",
       image: "/img/booklover.png",
-      video: "https://streamtape.com/e/gwovXd06Yztq8Yv/",
+      video: "https://drive.google.com/file/d/1xVYKZxROkR9L89JHhJJeHupmN21WkJnP/preview",
       tags: ["Laravel", "MYSQL", "PHP", "Bootstrap", "CSS", "Node.js", "JavaScript"],
       //github: "https://github.com",
       //demo: "https://example.com",
@@ -241,7 +241,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "This system is perfect for small businesses wanting to sell products online with basic inventory tracking and multilingual support!",
       image: "/img/onlineshopping.png",
       tags: ["Laravel", "MYSQL", "PHP", "Bootstrap", "CSS", "Node.js", "JavaScript"],
-      video: "https://streamtape.com/e/dqP7gVrvo7tkJ7r/",
+      video: "https://drive.google.com/file/d/1t5NMigKODYhLqt0pBUt6D6KlJ2TkMNhn/preview",
       longDescription: "This website is an **e-commerce platform** that allows businesses to sell products online with inventory management and multilingual support. For **customers**, it functions like a digital storefront where they can browse items by category, search for specific products, view detailed descriptions in English or Myanmar, add items to their cart, and complete purchases. Customers can also leave comments/reviews and manage their profile information. For **store administrators**, the system provides tools to add/edit products (including photos and pricing), organize items into categories, track inventory levels (which automatically update when purchases are made), view all customer orders, and manage user accounts. The platform supports both English and Myanmar languages, separates regular and sale items, maintains order histories, and prevents overselling by tracking product quantities in real-time. It's designed as a complete solution for small to medium businesses looking to establish an online sales presence with basic inventory control.",
       features: [
         " Customers can browse products, place orders, and leave reviews",
@@ -264,7 +264,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: " This project is ideal for wallpaper-sharing websites, digital art galleries, or theme-based wallpaper hubs.",
       image: "/img/wallpaperwebsite.png",
       tags: ["Laravel", "MYSQL", "PHP", "Bootstrap", "CSS", "Node.js", "JavaScript"],
-      video: "https://streamtape.com/e/dZ9qWx7wDqskpBD/",
+      video: "https://drive.google.com/file/d/1ssP0VgRiTC_dcXQpty1zavA_CNjbxzhN/preview",
       longDescription: 'This project is a wallpaper gallery and management system built with Laravel, designed to provide users with a seamless way to browse and download high-quality wallpapers while giving administrators full control over content management. For regular users, the platform offers an intuitive interface where they can explore wallpapers organized by categories, search for specific designs, filter by wallpaper type, and view detailed pages with multiple resolution options (480p, 720p, and 1080p) for downloads. The system also suggests related wallpapers to enhance discovery.',
       features: [
         " Browse Wallpapers: View a collection of wallpapers sorted by categories.",
@@ -307,7 +307,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "This project uses the Gemini API to create a chatbot capable of answering questions and generating code.",
       image: "/img/geminiChatBot.png",
       tags: ["NoCode", "AI", "API"],
-      video: "https://streamtape.com/e/YpQQ1Ylv4YHpld/",
+      video: "https://drive.google.com/file/d/1ah-sLF0pcv-FSqC7_hgLn_ktjURprJqj/preview",
       longDescription: "This project is an interactive chatbot built using the Gemini API. It allows users to chat naturally, ask for explanations, get help with coding, and more. Users are prompted to enter their own API key to enable access. The chatbot supports both voice-to-text and text-to-voice interactions, providing a more accessible experience. While the bot can generate code, the formatting may not always be easy to read. More features such as better formatting, customization, and advanced voice interactions are planned for the future.",
       demo: "https://gemini-chat-bot-six.vercel.app/",
       features: [
@@ -325,7 +325,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "A Japanese learning web app based on JLPT levels with flashcards, mock tests, and reference tools.",
       image: "/img/heinjlptmaster.png",
       tags: ["NoCode", "AI"],
-      video: "https://streamtape.com/e/0Jp6klVRYXc6l1/",
+      video: "https://drive.google.com/file/d/1-1e0Ipk5JU_to0ExXEPQC9Qd9PVhNWuq/preview",
       longDescription: "Hein JLPT Master is a web-based Japanese learning platform focused on JLPT levels from N5 to N3, with plans to expand to N2 and N1 in the future. The app features interactive flashcards for kanji and vocabulary, mock tests (模擬試験) to simulate the real JLPT exam, and comprehensive references for kanji, vocabulary, and grammar. It includes a powerful search function that allows users to look up words and grammar points easily. This is a beta version, and more data and features will be added. Currently, the app uses JavaScript-based data handling without any backend.",
       demo: "https://jlpt-app.vercel.app/",
       features: [
@@ -339,42 +339,14 @@ document.addEventListener("DOMContentLoaded", () => {
         "JavaScript-Only: All content and data are handled purely using JavaScript, no backend required (yet)."
       ]
     },
+
     {
       id: 8,
-      title: "Speed Test",
-      description: "A modern internet speed testing web app that checks your connection speed in real-time with animated visuals.",
-      image: "/img/speedTest.png",
-      tags: ["NoCode", "AI"],
-      video: "https://streamtape.com/e/y0zVMmzV0ku1GJy/",
-      longDescription: "Speed Test is a modern web-based internet speed testing app designed to give users real-time insights into their internet connection quality. It measures download speed, upload speed, ping, jitter, and packet loss using real file transfers and server interactions to simulate actual internet usage. The app displays essential connection details like your WiFi network name, local IP address, public IP address, ISP, and location. It uses visually engaging animations and shows the progress of tests as they happen. Built using JavaScript, this app delivers a lightweight and responsive experience directly in the browser without requiring a backend.",
-      demo: "https://speed-test-2-0.vercel.app/",
-      features: [
-        "Download Speed: Measures how fast you can download files, shown in Mbps.",
-        "Upload Speed: Calculates how quickly you can upload data to the internet.",
-        "Ping: Indicates how fast your device can send and receive data (low is better).",
-        "Jitter: Reflects the stability of your connection (lower means more stable).",
-        "Packet Loss: Shows if any data is being lost during transmission.",
-        "WiFi Network Name: Displays the name of the WiFi network you're connected to.",
-        "Local IP Address: Shows your internal IP (e.g., 192.168.x.x).",
-        "Public IP Address: Shows your external IP (the one visible to websites).",
-        "Location & ISP Info: Tells you where you're connected from and who your internet provider is.",
-        "Real Testin",
-        "- Uses actual file downloads and uploads to measure speed accurately.",
-        "- Connects to multiple servers to ensure reliability and precision.",
-        "- Displays real-time progress with smooth animations.",
-        "- No backend required — fully powered by JavaScript in the browser.",
-        "Current Limitations: This version uses frontend-only simulations, so results may not be as accurate as server-based speed tests.",
-        "Future Plans: Will integrate official speed test APIs to enhance measurement accuracy and reliability.",
-
-      ]
-    },
-    {
-      id: 9,
       title: "HR Management (Mini Project)",
       description: "A simple PHP & MySQL-based HR management system to manage employees, handle leave, overtime, and calculate salary with sorting and search features.",
       image: "img/hrmanagement.png",
       tags: ["PHP", "MySQL"],
-      video: "https://streamtape.com/e/Oq98YjMZgjUZbPA/",
+      video: "https://drive.google.com/file/d/1QCpUA8ejsAdjy0glf4FDYFCoRxZMxEsG/preview",
       longDescription: "This HR Management Mini Project is a lightweight and functional system developed using only core PHP and MySQL, without any external frameworks. It allows small organizations to efficiently manage employee data, including adding, editing, deleting records, and calculating payroll. The system also includes features for leave management and overtime tracking. Salary is calculated based on base pay and additional overtime hours. The application provides sorting, filtering, and search capabilities to simplify employee tracking and HR processes.",
       features: [
         "Add, Edit, Delete Employees: Easily manage employee records in the database.",
@@ -387,6 +359,49 @@ document.addEventListener("DOMContentLoaded", () => {
         "Pure PHP & MySQL: Built without any external frameworks for easy customization and understanding.",
         "User Authentication: Basic login system to restrict unauthorized access.",
         "Minimal UI: Focuses on functionality with clean and simple interface."
+      ]
+    },
+    {
+      id: 9,
+      title: "Hein Manga (Manga Reading WebApp)",
+      description: "A simple JavaScript-based manga reading web app that loads PDF manga chapters and displays them in a manga-style interface.",
+      image: "img/heinManga.png",
+      tags: ["NoCode", "AI"],
+      video: "https://drive.google.com/file/d/1vee82uMcOYVm7kIr7aDPochuPLIbqAQX/preview",
+      longDescription: "Hein Manga is a lightweight manga reading web application developed using JavaScript for the backend and a minimal frontend design. Chapters are uploaded in PDF format and automatically converted into manga-style pages for the reader to enjoy. The system focuses on smooth reading and chapter navigation. In the future, I plan to purchase Google Cloud storage and connect it to this web app, since the current free domain cannot handle too many uploaded files. Because of this, an online demo is not available at the moment.",
+      features: [
+        "Upload manga chapters in PDF format",
+        "Automatic conversion to manga page display",
+        "Read manga in web browser with page navigation",
+        "Built using JavaScript backend logic",
+        "Lightweight frontend with focus on reading experience",
+        "Designed to be connected to cloud storage (future update)",
+        "Simple and clean user interface"
+      ]
+    },
+    {
+      id: 10,
+      title: "School Management System  (WebApp)",
+      description: "A React & Node.js-based school management system with separate dashboards for students, teachers, and headteachers. Features include assignment tracking, performance analytics, timetable management, and simulated database operations (no real backend).",
+      image: "img/schoolManagement.png",
+      tags: ["NoCode", "AI"],
+      video: "https://drive.google.com/file/d/1HGNh9n5PzLhe_5Go6bxY3m_meW_tOZem/preview",
+      longDescription: "This web application simulates a school management system with three distinct dashboards: Student, Teacher, and Headteacher. Students can view subjects, assignments, teacher details, and upcoming exams. Teachers manage their classes, review assignments, grade students, and track performance. The Headteacher oversees all data, edits/deletes student/teacher records, and monitors performance analytics. The current version uses simulated data (no real database) but is built with React (frontend) and Node.js (backend) for future scalability. Future updates will include a complaint system and real database integration.",
+      demo: "https://school-management-ten-lime.vercel.app/",
+      features: [
+        "Three role-based dashboards: Student, Teacher, Headteacher",
+        "Student Dashboard: Displays subjects, assignments, teacher details, timetable, and upcoming exams",
+        "Teacher Dashboard: Views class students, reviews/grades assignments, checks performance analytics (by subject/month)",
+        "Headteacher Dashboard: Manages all students/teachers, edits/deletes records, monitors school-wide performance",
+        "Simulated data operations (no real database in current version)",
+        "Assignment upload & review system (simulated)",
+        "Timetable management for students and teachers",
+        "Performance analytics (by class, subject, and month)",
+        "Built with React (frontend) and Node.js (backend)",
+        "Developed using v0.dev for rapid prototyping",
+        "Only Avaiable for web view only for now future i will make the mobile view too",
+        "Future plans: Real database integration, complaint system"
+
       ]
     }
 
