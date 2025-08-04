@@ -382,7 +382,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 10,
       title: "School Management System  (WebApp)",
-      description: "A React & Node.js-based school management system with separate dashboards for students, teachers, and headteachers. Features include assignment tracking, performance analytics, timetable management, and simulated database operations (no real backend).",
+      description: "A React & Node.js-based school management system with separate dashboards for students, teachers, and headteachers",
       image: "img/schoolManagement.png",
       tags: ["NoCode", "AI"],
       video: "https://drive.google.com/file/d/1HGNh9n5PzLhe_5Go6bxY3m_meW_tOZem/preview",
