@@ -403,11 +403,52 @@ document.addEventListener("DOMContentLoaded", () => {
         "Future plans: Real database integration, complaint system"
 
       ]
-    }
-
-
-
-
+    },
+    {
+      "id": 11,
+      "title": "Sakura Food Court (WebApp)",
+      "description": "A React & Node.js-based food ordering system with ingredient customization and a dynamic PDF receipt.",
+      "image": "img/sakuracourt.png",
+      "tags": ["React", "Node.js", "NoCode", "AI"],
+      "video": "https://drive.google.com/file/d/1GJDMxL7_Q5_qZ0znyf4EPfYoO87zTNMB/preview",
+      "longDescription": "This web application is a fun, Japanese-themed food ordering system for the 'Sakura Food Court.' Users can browse the menu, customize their orders by selecting or removing ingredients, and see the price update dynamically in real-time. All selected items are added to a live receipt (cart), which the user can edit (change quantities, update customizations) or delete items from. Once the order is finalized, the user can download the complete receipt as a PDF. The app was rapidly prototyped using v0.dev and is built with React (frontend) and Node.js (backend) using simulated data (no real backend database yet).",
+      "demo": "https://japanese-food-ordering-app-xgkc.vercel.app/",
+      "features": [
+        "Fun, Japanese-themed interactive UI",
+        "Food ordering system with menu browsing",
+        "Customize orders by selecting/deselecting ingredients",
+        "Dynamic pricing that changes based on customizations",
+        "Live receipt/cart system",
+        "Ability to edit items in the receipt",
+        "Ability to delete items from the receipt",
+        "Download the final order receipt as a PDF",
+        "Simulated data operations (no real database in current version)",
+        "Built with React (frontend) and Node.js (backend)",
+        "Developed using v0.dev for rapid prototyping",
+        "Web-based application",
+        "Future plans: Real database integration and user accounts"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Hein-DataStructure (WebApp)",
+      "description": "An interactive web app for visualizing data structures and algorithms like linked lists, sorting, and searching in real-time.",
+      "image": "img/heindatastructure.png",
+      "tags": ["React", "Node.js", "NoCode", "AI"],
+      "video": "https://drive.google.com/file/d/1IcLrkGowe0k3edavrdavRLnM5sOwx8Nw/preview",
+      "longDescription": "This web application, 'hein-datastructure,' is a live, interactive tool for understanding complex computer science topics. It was created based on the idea that seeing data structures and algorithms in action is the best way to learn them, inspired by preparations for the ITPC exam. Users can interact with live visualizations for Linked Lists, various Sorting Algorithms, and Searching & Traversal algorithms. The app allows users to see a 'live trace' of how these algorithms operate step-by-step. The UI was rapidly developed using v0.dev and is built with React to create a hands-on, visual learning experience.",
+      "demo": "https://hein-datastructure.vercel.app/",
+      "features": [
+        "Live, interactive visualization of Linked Lists",
+        "Step-by-step tracing of various Sorting Algorithms",
+        "Real-time visualization of Searching & Traversal Algorithms",
+        "Covers general-purpose Data Structures & Algorithms",
+        "Designed as a visual study aid for technical exams (ITPC)",
+        "Built with React for a dynamic, interactive UI",
+        "UI prototyped and developed using v0.dev",
+        "Fully web-based and accessible",
+      ]
+    },
   ]
 
   // Populate technical skills
